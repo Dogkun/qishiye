@@ -48,7 +48,8 @@ body{
     width: 240px;
 }
 .bg-img {
-    background-image: url(1.jpg);
+    background-image: url(01.jpg);
+    //这里的图片还是先换一下吧，不然万一被人误会了就
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
