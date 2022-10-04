@@ -8,23 +8,19 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: #2f3640;
+    background-color:#ffffffad;
     height: 40px;
     border-radius: 40px;
-    padding: 10px;
 }
 .search-btn{
-    color:#e84118 ;
     float: right;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #2f3640;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    border:3px solid #000000;
 }
 //搜索按钮在移动端会错位
 .search-btn:hover{
@@ -42,11 +38,12 @@ body{
     outline: none;
     float: left;
     padding: 0;
-    color: white;
+    color: black;
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
-    width: 240px;
+    width: 460px;
+    text-align: center;
 }
 .bg-img {
     background-image: url(1.jpg);
