@@ -16,7 +16,6 @@ body{
     background-color:#55aaff;
 }
 .search-btn{
-    float: right;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -37,19 +36,6 @@ body{
  
 }
 //鼠标移上和按下的样式
-#search_input{
-    border: none;
-    background:none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: black;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 460px;
-    text-align: center;
-}
 .bg-img {
     background-image: url(1.jpg);
     //这里的图片还是先换一下吧，不然万一被人误会了就
