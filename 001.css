@@ -37,7 +37,7 @@ body{
  
 }
 //鼠标移上和按下的样式
-.search-text{
+#search_input{
     border: none;
     background:none;
     outline: none;
