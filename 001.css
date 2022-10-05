@@ -90,6 +90,7 @@ footer{
     text-align: center;
     cursor: pointer;
     transition: .25s;
-    color: black
+    color: black;
+    position: absolute;
 }
 
