@@ -86,11 +86,12 @@ footer{
     top: calc(var(--body-top) + 115px);
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px;
+    padding: 225px;
     text-align: center;
     cursor: pointer;
     transition: .25s;
     color: black;
     position: absolute;
+    
 }
 
