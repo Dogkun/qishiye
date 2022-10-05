@@ -81,5 +81,15 @@ footer{
     text-decoration: dashed;
     color: rgba(255,255,255,0.6);
 }
-
+#time {
+    position: fixed;
+    top: calc(var(--body-top) + 115px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .25s;
+    color: black
+}
 
