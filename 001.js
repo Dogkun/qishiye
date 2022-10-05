@@ -9,8 +9,7 @@ function time() {
     var now = new Date();
     var hour= now.getHours();//得到小时数
     var minute= now.getMinutes();//得到分钟数
-    document.getElementById("h").innerHTML=hour;
-    document.getElementById("m").innerHTML=minute;
-    setTimeout(show,1000);//定时器一直调用show()函数
-    return "";
+    var time =  hour + ":" + minute;
+    document.getElementById("time").innerHTML=time;
 }
+var int=self.setInterval("time()",1000);//相对于重复执行，感谢某乎带佬和菜鸟教程[doge]
