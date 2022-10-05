@@ -14,9 +14,6 @@ body{
     left: 0;
     top: 0;
 }
-.search-box:hover {
-    background-color: #bfbaba;
-}
 .search-box{
     position:absolute;
     top: 50%;
