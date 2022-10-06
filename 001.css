@@ -8,13 +8,13 @@ body{
     //background-position: center;
     //background-repeat: no-repeat;
     //background-size: cover;
-    height: 100%;
-    position: fixed;
-    transition: all 0.25s;
-    width: 100%;
-    z-index: -1000000;
-    left: 0;
-    top: 0;
+    //height: 100%;
+    //position: fixed;
+    transition:0.25s;
+    //width: 100%;
+    //z-index: -1000000;
+    //left: 0;
+    //top: 0;
 }
 
 .search-text:hover{
