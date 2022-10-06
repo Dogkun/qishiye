@@ -89,6 +89,7 @@ footer{
 }
 #time {
     font-family:sans-serif;
+    font-size:60px;
     position: fixed;
     top: -200%;
     left: 50%;
