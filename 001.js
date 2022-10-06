@@ -13,11 +13,3 @@ function time() {
     document.getElementById("time").innerHTML=time;
 }
 var int=self.setInterval("time()",1000);
-location ~ .*\.(gif|jpgljpeglpnglbmp|swf)$
-{
-expires 30d;
-}
-location ~ .*\.(js|css)?$
-{
-6.expires lh；
-}
