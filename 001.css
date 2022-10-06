@@ -14,6 +14,10 @@ body{
     left: 0;
     top: 0;
 }
+
+.search-text:hover{
+    width: 460px;
+}
 .search-text{
     border: none;
     background:none;
@@ -24,7 +28,7 @@ body{
     font-size: 16px;
     transition: 0.4s;
     line-height: 40px;
-    width: 460px;
+    width: 200px;
     text-align: center;
 }
 .search-box{
