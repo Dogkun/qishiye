@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(1.jpg);
-    background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
+    //background-image: url(1.jpg);
+    //background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
     //求你了，别换了，我再被发现一次说不定真得不能和你合作了，这个是我找的必应每日图的API，您看看行不行
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    //background-attachment: fixed;
+    //background-position: center;
+    //background-repeat: no-repeat;
+    //background-size: cover;
     height: 100%;
     position: fixed;
     transition: all 0.25s;
