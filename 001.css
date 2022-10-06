@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    //background-image: url(1.jpg);
     background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
     //求你了，别换了，我再被发现一次说不定真得不能和你合作了，这个是我找的必应每日图的API，您看看行不行
     //以后说你就行了，太别留了啊。
@@ -80,7 +79,6 @@ footer{
 }
 #time {
     font-family:sans-serif;
-    font-size:60px;
     position: fixed;
     top: -200%;
     left: 50%;
@@ -88,7 +86,7 @@ footer{
     text-align: center;
     cursor: pointer;
     transition: .25s;
-    color: white;
+    color: white; 
     position: absolute;
 }
 
