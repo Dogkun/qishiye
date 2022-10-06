@@ -43,7 +43,8 @@ body{
     justify-content: center;
     align-items: center;
     transition: 0.1s;
-    border:3px solid #000000;
+    border: 0px solid #000000;
+    background: none;
 }
 //搜索按钮在移动端会错位(tips)
 .search-btn:hover{
