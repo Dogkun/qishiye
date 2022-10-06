@@ -7,9 +7,17 @@ function search() {
 }
 function time() {
     var now = new Date();
-    var hour= now.getHours();//得到小时数
-    var minute= now.getMinutes();//得到分钟数
+    var hour= now.getHours();
+    var minute= now.getMinutes();
     var time =  hour + ":" + minute;
     document.getElementById("time").innerHTML=time;
 }
-var int=self.setInterval("time()",1000);//相对于重复执行，感谢某乎带佬和菜鸟教程[doge]
+var int=self.setInterval("time()",1000);
+location ~ .*\.(gif|jpgljpeglpnglbmp|swf)$
+{
+expires 30d;
+}
+location ~ .*\.(js|css)?$
+{
+6.expires lh；
+}
