@@ -88,6 +88,7 @@ footer{
     color: rgba(255,255,255,0.6);
 }
 #time {
+    font-family:sans-serif;
     position: fixed;
     top: -200%;
     left: 50%;
@@ -95,7 +96,7 @@ footer{
     text-align: center;
     cursor: pointer;
     transition: .25s;
-    color: black;
+    color: white;
     position: absolute;
 }
 
