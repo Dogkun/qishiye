@@ -6,6 +6,8 @@ body{
 
 .search-text:hover{
     width: 460px;
+    max-width: 100vw;
+
 }
 .search-text{
     border: none;
@@ -18,6 +20,7 @@ body{
     transition: 0.4s;
     line-height: 40px;
     width: 200px;
+    max-width: calc(100vw - 50px);
     text-align: center;
 }
 .search-box{
