@@ -10,7 +10,7 @@ body{
 
 }
 .search-text{
-    //display:flex;
+    display:flex;
     border: none;
     background:none;
     outline: none;
