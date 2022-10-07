@@ -40,7 +40,7 @@ body{
     position:absolute;
     width: 40px;
     height: 40px;
-    right:50px;
+    left:50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
