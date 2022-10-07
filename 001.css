@@ -37,8 +37,10 @@ body{
     background-color:#55aaff;
 }
 .search-btn{
+    position:fixed;
     width: 40px;
     height: 40px;
+    right:0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
