@@ -37,7 +37,7 @@ body{
     background-color:#55aaff;
 }
 .search-btn{
-    position:fixed;
+    position:absolute;
     width: 40px;
     height: 40px;
     right:0;
