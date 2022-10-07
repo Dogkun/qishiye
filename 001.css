@@ -44,7 +44,7 @@ body{
     text-align:center;
     left:50px;
     border-radius: 50%;
-    //display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.1s;
