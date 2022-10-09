@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
+}
+.search-text:hover{
+    width: 460px;
+}
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 200px;
+    text-align: center;
+}
+.search-box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#ffffff;
+    height: 40px;
+    border-radius: 40px;
+}
+.search-box:focus{
+    background-color:#55aaff;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    border: 0px solid #000000;
+    background: none;
+}
+.footer-box{
+    text-align: center;
+}
+footer{
+    animation: delayedFadeIn 1s;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    font-size: 12px;
+    color: rgba(255,255,255,.6);
+    text-align: center;
+    text-shadow: 0 0 20px rgba(0,0,0,.8);
+    white-space: nowrap;
+}
+.zuozhe{
+    text-decoration: dashed;
+    color: rgba(255,255,255,0.6);
+}
+#time {
+    font-family:sans-serif;
+    position: fixed;
+    top: -200%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .25s;
+    color: white; 
+}
+.bing {
+    width: 100%;
+    height: 100%;
+}
+
