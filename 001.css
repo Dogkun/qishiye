@@ -5,6 +5,7 @@ body{
 }
 .search-text:hover{
     width: 460px;
+    max-width:calc(100vw - 32px);
 }
 .search-text {
     border: none;
@@ -43,6 +44,7 @@ body{
     transition: 0.1s;
     border: 0px solid #000000;
     background: none;
+    max-width:calc(100vw - 32px);
 }
 .footer-box{
     text-align: center;
