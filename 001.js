@@ -9,8 +9,8 @@ function time() {
     var now = new Date();
     var hour= now.getHours();
     var minute= now.getMinutes();
-    var time =  hour + ":" + minute;
-    document.getElementById("time").innerHTML=time;
+    var t =  hour + ":" + minute;
+    document.getElementById("time").innerHTMLt;
 }
 //time()
 //在第一秒时显示时间
