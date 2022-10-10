@@ -12,11 +12,6 @@ function time() {
     var time =  hour + ":" + minute;
     document.getElementById("time").innerHTML=time;
 }
-var now = new Date();
-var hour= now.getHours();
-var minute= now.getMinutes();
-var time =  hour + ":" + minute;
-document.getElementById("time").innerHTML=time;
 //time()
 //在第一秒时显示时间
 var int=self.setInterval("time()",1000);
