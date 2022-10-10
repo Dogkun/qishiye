@@ -10,7 +10,7 @@ function time() {
     var hour= now.getHours();
     var minute= now.getMinutes();
     var t =  hour + ":" + minute;
-    document.getElementById("time").innerHTML=t;
+    document.getElementById("time").innerHTML = t;
 }
 //time()
 //在第一秒时显示时间
