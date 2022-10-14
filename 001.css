@@ -5,7 +5,7 @@ body{
 }
 .search-text:hover{
     width: 460px;
-    max-width:calc(100vw - 120px);
+    max-width:calc(100vw - 200px);
 }
 .search-text {
     border: none;
