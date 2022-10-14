@@ -42,9 +42,10 @@ body{
     justify-content: center;
     align-items: center;
     transition: 0.1s;
-    border: 0px solid #000000;
+    border: 0px;
     background: none;
     max-width:calc(100vw - 32px);
+    padding:0;
 }
 .footer-box{
     text-align: center;
