@@ -5,7 +5,7 @@ body{
 }
 .search-text:hover{
     width: 460px;
-    max-width:calc(100vw - 100px);
+    max-width:calc(100vw - 120px);
 }
 .search-text {
     border: none;
@@ -19,7 +19,7 @@ body{
     line-height: 40px;
     width: 200px;
     text-align: center;
-    max-width:calc(100vw - 100px);
+    max-width:calc(100vw - 120px);
 }
 .search-box{
     position:absolute;
