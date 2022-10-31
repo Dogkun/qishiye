@@ -6,8 +6,8 @@ function search() {
     return false;
 }
 function time() {
-    var now = new Date();
-    var hour= now.getHours();
+    var now = date.getHours()<10?"0"+date.getHours():date.getHours();
+    var hour= date.getMinutes()<10?"0"+date.getMinutes():date.getMinutes();
     var minute= now.getMinutes();
     var t =  hour + ":" + minute;
     document.getElementById("time").innerHTML = t;
