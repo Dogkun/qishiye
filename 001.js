@@ -6,6 +6,7 @@ function search() {
     return false;
 }
 function time() {
+    var date= new Date();
     var hour= date.getHours()<10?"0"+date.getHours():date.getHours();
     var minute= date.getMinutes()<10?"0"+date.getMinutes():date.getMinutes();
     var t =  hour + ":" + minute;
